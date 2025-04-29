@@ -409,7 +409,7 @@ filter: drop-shadow(0 12px 12px hsla( var(--hue), 100%, 40%, .2));
 .services__card{
   text-align: center;
   background-color: var(--container-color);
-  padding: 3rem 1.25rem;
+  padding: 1rem 1.25rem;
   border-radius: 1rem;
   border: 2px solid var(--container-color);
   transition: border .4s;
@@ -807,12 +807,12 @@ padding-block:2rem 3rem;
  }
 
  .services__container{
-  grid-template-columns: repeat(3, 352px);
+  grid-template-columns: repeat(2, 576px);
   padding-block: 2.5rem 4rem; 
 }
 
 .services__card{
-  padding: 3.5rem 2rem;
+  padding: 1rem 2rem ;
 }
 
 .projects__container{
